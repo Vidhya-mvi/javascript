@@ -1,0 +1,202 @@
+*{
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  --side-box-color: #0F0441 ;
+  --line-color:#FFFFFF2B;
+  --side-text-color:#FFFFFFB2;
+  --main-text-color:#FFFFFF;
+  --list-text-color:#707EAE;
+  --list-main-text-color:#2B3674;
+  --side-text-hover:#FFFFFF21;
+  --main-page-color:#0000002B;
+  --main-page-color:rgb(195, 228, 241);
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  width: 1920px;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0px;
+}
+.card-body{
+  display: flex;
+}
+
+.side-bar{
+  background-color:var(--side-box-color);
+  width: 290px;
+height: 1152px;
+
+h4{
+font-weight: 700;
+line-height: 28.75px;
+text-align: left;
+line-height: 28.75px;
+position: fixed;
+  color:var(--main-text-color);
+  left: 50px;
+}
+  }
+  .light{
+font-size: 23px;
+font-weight: 300;
+line-height: 28.75px;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px solid var(--line-color);
+    padding: 15px;
+  }
+.box{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  top: 100px;
+  left: 35px;
+  position: fixed;
+  color:var(--side-text-color) ;
+ a{
+  text-decoration: none;
+  color:var(--side-text-color) ;
+ }
+}
+.line{
+  display:flex;
+  gap: 5px;
+  align-items: center;
+}
+.line:hover{
+  border: 0px;
+  border-radius: 15px;
+  background-color:var(--side-text-hover);
+  padding: 10px 25px;
+}
+.last{
+  border-top:1px solid  var(--line-color);
+  padding: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+position: fixed;
+bottom: 10px;
+color: var(--side-text-color);
+left: 40px;
+font-size:12px ;
+p{
+  margin: 0;
+}
+}
+/*     list section */
+.full{
+  display: block;
+  background-color: var(--main-page-color);
+  width: 1230px;
+}
+.Employee-box{
+  padding: 10px 0px 0px 10px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.nav-bar p{
+  color:var(--list-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  }
+  .nav-bar h4{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: var(--list-main-text-color);
+  }
+  .group{
+    border-radius: 30px;
+    background-color: var(--main-text-color);
+    padding: 20px;
+    width: 326px;
+height: 61.51px;
+display: flex;
+align-items: center;
+text-align: end;
+gap: 10px;
+
+  }
+  .input{
+    display: flex;
+    align-items: center;
+    
+  }
+#name{
+  border-radius: 49px;
+  border: 0px;
+  width: 105px;
+  background-color: var(--main-page-color);
+  width: 214px;
+height: 35.34px;
+padding: 0px 0px 0px 25px;
+display: flex;
+justify-content: center;
+
+}
+.fa-solid.fa-magnifying-glass{
+position: absolute;
+right: 300px;
+color: var(--list-main-text-color);
+font-size: 12px;
+}
+.img{
+  width: 41px;
+  height: 41.34px;
+  border-radius: 100px;
+}
+/* the empoly list */
+.the-list{
+  /* width: 1590px; */
+  background-color: var(--main-text-color);
+  gap: 20px;
+  border-radius: 20px;
+  margin: 30px 10px;
+}
+.top{
+  display: flex;
+}
+.main{
+  h5{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.02em;
+padding: 15px;
+  }
+}
+.btn.btn-light.dropdown-toggle{
+  position: absolute;
+bottom: 17px;
+left: 217px;
+padding: 8px 15px 8px 15px;
+gap: 8px;
+border-radius:8px;
+border: 1px solid rgb(162, 159, 159);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
