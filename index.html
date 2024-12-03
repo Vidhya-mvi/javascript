@@ -18,7 +18,7 @@
 
 <body>
 
-  <section class="container-fluid">
+  <section class="container-fluid m-0 p-0">
     <div class="card-body">
       <div class="side-bar">
         <h4 class="logo">Employee <span class="light"> Management</span></h4>
@@ -57,23 +57,21 @@
         <div class="top">
           <div class="main">
             <h5>Employees List</h5>
-            <div class="dropdown">
-              <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                1
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">2</a></li>
-                <li><a class="dropdown-item" href="#">3</a></li>
-                <li><a class="dropdown-item" href="#">4</a></li>
-                <li><a class="dropdown-item" href="#">5</a></li>
-                <li><a class="dropdown-item" href="#">6</a></li>
-                <li><a class="dropdown-item" href="#">7</a></li>
-                <li><a class="dropdown-item" href="#">8</a></li>
-                <li><a class="dropdown-item" href="#">9</a></li>
-                <li><a class="dropdown-item" href="#">10</a></li>
-              </ul>
-              <p>of 10</p>
-            </div>
+            <select class="form-select" aria-label="defult select example">
+              <option selected>1  </option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+
+            </select>
+
+             <h6>of 10</h6>
           </div>
           <button type="button" class="btn btn-primary">Add Employee</button>
         </div>
@@ -93,7 +91,7 @@
           <tbody>
             <tr>
               <th scope="row">#01</th>
-              <td><img src="image.jpg/Mr. Michael Johnson.png">Mr. Michael Johnson</td>
+              <td><img src="image.jpg/Mr. Michael Johnson.png"><span class="gap-5">Mr. Michael Johnson</span></td>
               <td>michaeljohnson@example.com</td>
               <td>5551234567</td>
               <td>Male</td>
@@ -115,7 +113,7 @@
             </tr>
             <tr>
               <th scope="row">#02</th>
-              <td><img src="image.jpg/Ms. Emily Wilson.png">Ms. Emily Wilson</td>
+              <td><img src="image.jpg/Ms. Emily Wilson.png"><span class="gap-5">Ms. Emily Wilson</span></td>
               <td>emilywilson@example.com</td>
               <td>9998765432</td>
               <td>Female</td>
@@ -137,7 +135,7 @@
             </tr>
             <tr>
               <th scope="row">#03</th>
-              <td><img src="image.jpg/Prof. David Brown.png">Prof. David Brown</td>
+              <td><img src="image.jpg/Prof. David Brown.png"><span class="gap-5">Prof. David Brown</span></td>
               <td>davidbrown@example.com</td>
               <td>2788945521</td>
               <td>Male</td>
@@ -159,7 +157,7 @@
             </tr>
             <tr>
               <th scope="row">#04</th>
-              <td><img src="image.jpg/Dr. Michael Johnson.png">Dr. Michael Johnson</td>
+              <td><img src="image.jpg/Dr. Michael Johnson.png"><span class="gap-5">Dr. Michael Johnson</span></td>
               <td>michaeljohnson@example.com</td>
               <td>5551234567</td>
               <td>Male</td>
@@ -181,7 +179,7 @@
             </tr>
             <tr>
               <th scope="row">#05</th>
-              <td><span class="icon">MJ</span>Ms. Milly Johnson</td>
+              <td><span class="icon">MJ</span><span class="gap-5">Ms. Milly Johnson</span></td>
               <td>millyjohnson@example.com</td>
               <td>7638492034</td>
               <td>Female</td>
@@ -203,7 +201,7 @@
             </tr>
             <tr>
               <th scope="row">#06</th>
-              <td><img src="image.jpg/Mr. Azeem Zai.png">Mr. Azeem Zai</td>
+              <td><img src="image.jpg/Mr. Azeem Zai.png"><span class="gap-5">Mr. Azeem Zai</span></td>
               <td>azeemzai@example.com</td>
               <td>5551234567</td>
               <td>Male</td>
@@ -225,7 +223,7 @@
             </tr>
             <tr>
               <th scope="row">#07</th>
-              <td><img src="image.jpg/Dr. Maddison Johnson.png">Dr. Maddison Johnson</td>
+              <td><img src="image.jpg/Dr. Maddison Johnson.png"><span class="gap-5">Dr. Maddison Johnson</span></td>
               <td>michaeljohnson@example.com</td>
               <td>6582639103</td>
               <td>Male</td>
@@ -247,7 +245,7 @@
             </tr>
             <tr>
               <th scope="row">#08</th>
-              <td><span class="icon">DB</span>Ms. David Brown</td>
+              <td><span class="icon">DB</span><span class="gap-5">Ms. David Brown</span></td>
               <td>michaeljohnson@example.com</td>
               <td>9876543210</td>
               <td>Female</td>
@@ -269,7 +267,7 @@
             </tr>
             <tr>
               <th scope="row">#09</th>
-              <td><img src="image.jpg/Mr. Michael Johnson.png">Mr. Michael Johnson</td>
+              <td><img src="image.jpg/Mr. Michael Johnson.png"><span class="gap-5">Mr. Michael Johnson</span></td>
               <td>michaeljohnson@example.com</td>
               <td>5551234567</td>
               <td>Male</td>
@@ -291,7 +289,7 @@
             </tr>
             <tr>
               <th scope="row">#10</th>
-              <td><img src="image.jpg/Ms. Emily Wilson.png">Ms. Emily Wilson</td>
+              <td><img src="image.jpg/Ms. Emily Wilson.png"> <span class="gap-5"> Ms.Emily Wilson</span></td>
               <td>emilywilson@example.com</td>
               <td>9998765432</td>
               <td>Female</td>
