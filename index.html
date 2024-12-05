@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
 </head>
 
 <body>
@@ -24,323 +26,464 @@
         <h4 class="logo">Employee <span class="light"> Management</span></h4>
         <div class="box">
           <ul>
-          <li><a class="line"><i class="fa-solid fa-house"></i>Dashboard</a></li>
-          <li><a class="line"><span class="material-symbols-outlined">
-            equalizer
-            </span>Employees</p>
+            <li><a class="line"><i class="fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a class="line"><span class="material-symbols-outlined">
+                  equalizer
+                </span>Employees</p>
             <li><a class="line"><i class="fa-solid fa-user"></i>My Profile</a></li>
-              <li><a class="line"><i class="fa-solid fa-lock"></i>Logout</a></li>
+            <li><a class="line"><i class="fa-solid fa-lock"></i>Logout</a></li>
         </div>
         <div class="last">
           <p>Powered by</p>
-          <img  src="image.jpg/stackup.png" alt="stackup">
+          <img src="image.jpg/stackup.png" alt="stackup">
         </div>
       </div>
+
       <!-- list section -->
-       <div class="full">
-      <div class="Employee-box">
-        <div class="nav-bar">
-      <p>Dashboard / Employees</p>
-      <h4>Employees</h4>
-        </div>
-          <span class="group">
-      <div class="input">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" id="name" placeholder="search" name="search">
-      </div>
-      <i class="fa-regular fa-bell"></i>
-      <img  class="img"  src="image.jpg/profile.png" alt="profile">
-          </span>
-    </div>
-      <!-- the emoploy list -->
-      <div class="the-list">
-        <div class="top">
-          <div class="main">
-            <h5>Employees List</h5>
-            <select class="form-select" aria-label="defult select example">
-              <option selected>1  </option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
 
-            </select>
-
-             <h6>of 10</h6>
+      <div class="full">
+        <div class="Employee-box">
+          <div class="nav-bar">
+            <p>Dashboard / Employees</p>
+            <h4>Employees</h4>
           </div>
-          <button type="button" class="btn btn-primary">Add Employee</button>
+          <span class="bar">
+            <div class="input">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="name" placeholder="search" name="search">
+            </div>
+            <i class="fa-regular fa-bell"></i>
+            <img class="img" src="image.jpg/profile.png" alt="profile">
+          </span>
         </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Sl.No<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col">Name<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col">Email<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col">Phone<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col">Gender<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col">DOB<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col">Country<i class="fa-solid fa-chevron-down"></i></th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">#01</th>
-              <td><img src="image.jpg/Mr. Michael Johnson.png"><span class="gap-5">Mr. Michael Johnson</span></td>
-              <td>michaeljohnson@example.com</td>
-              <td>5551234567</td>
-              <td>Male</td>
-              <td>10 December 1985</td>
-              <td>USA</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#02</th>
-              <td><img src="image.jpg/Ms. Emily Wilson.png"><span class="gap-5">Ms. Emily Wilson</span></td>
-              <td>emilywilson@example.com</td>
-              <td>9998765432</td>
-              <td>Female</td>
-              <td>10 August 1992</td>
-              <td>Canada</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#03</th>
-              <td><img src="image.jpg/Prof. David Brown.png"><span class="gap-5">Prof. David Brown</span></td>
-              <td>davidbrown@example.com</td>
-              <td>2788945521</td>
-              <td>Male</td>
-              <td>12 May 1990</td>
-              <td>Japan</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#04</th>
-              <td><img src="image.jpg/Dr. Michael Johnson.png"><span class="gap-5">Dr. Michael Johnson</span></td>
-              <td>michaeljohnson@example.com</td>
-              <td>5551234567</td>
-              <td>Male</td>
-              <td>22 September 1988</td>
-              <td>India</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#05</th>
-              <td><span class="icon">MJ</span><span class="gap-5">Ms. Milly Johnson</span></td>
-              <td>millyjohnson@example.com</td>
-              <td>7638492034</td>
-              <td>Female</td>
-              <td>06 January 1994</td>
-              <td>USA</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#06</th>
-              <td><img src="image.jpg/Mr. Azeem Zai.png"><span class="gap-5">Mr. Azeem Zai</span></td>
-              <td>azeemzai@example.com</td>
-              <td>5551234567</td>
-              <td>Male</td>
-              <td>28 April 1987</td>
-              <td>USA</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#07</th>
-              <td><img src="image.jpg/Dr. Maddison Johnson.png"><span class="gap-5">Dr. Maddison Johnson</span></td>
-              <td>michaeljohnson@example.com</td>
-              <td>6582639103</td>
-              <td>Male</td>
-              <td>14 October 1993</td>
-              <td>UAE</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#08</th>
-              <td><span class="icon">DB</span><span class="gap-5">Ms. David Brown</span></td>
-              <td>michaeljohnson@example.com</td>
-              <td>9876543210</td>
-              <td>Female</td>
-              <td>24 June 1992</td>
-              <td>India</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#09</th>
-              <td><img src="image.jpg/Mr. Michael Johnson.png"><span class="gap-5">Mr. Michael Johnson</span></td>
-              <td>michaeljohnson@example.com</td>
-              <td>5551234567</td>
-              <td>Male</td>
-              <td>10 December 1985</td>
-              <td>USA</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">#10</th>
-              <td><img src="image.jpg/Ms. Emily Wilson.png"> <span class="gap-5"> Ms.Emily Wilson</span></td>
-              <td>emilywilson@example.com</td>
-              <td>9998765432</td>
-              <td>Female</td>
-              <td>10 August 1992</td>
-              <td>Canada</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   <span class="colo">...</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye"></i>View Details</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen"></i>Edit </a></li>
-                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash"></i>Delete </a></li>
-                  </ul>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-    </div>
-    <nav aria-label="Page navigation example">
-      <ul class="pagination">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">...</a></li>
-        <li class="page-item"><a class="page-link" href="#">10</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="footer">
-    <p>© 2023  All Rights Reserved. Stackup</p>
-    <div class="footer-last">
-    <a href="#">Terms of Use</a>
-    <a href="#">Privacy Policy</a>
-    </div>
-    </div>
-       </div>
+
+        <!-- the emoploy list -->
+
+        <div class="the-list">
+          <div class="top">
+            <div class="main">
+              <h5>Employees List</h5>
+              <select class="form-select" aria-label="defult select example">
+                <option selected>1 </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+
+              </select>
+
+              <h6 id="total">of 10</h6>
+            </div>
+            <button type="button" class="btn btn-primary" id="button">Add Employee</button>
+          </div>
+          <!-- the table for employees -->
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Sl.No<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col">Name<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col">Email<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col">Phone<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col">Gender<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col">DOB<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col">Country<i class="fa-solid fa-chevron-down p-2"></i></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <th scope="row">#01</th>
+                <td><img src="image.jpg/Mr. Michael Johnson.png"><span class="p-2">Mr. Michael Johnson</span></td>
+                <td>michaeljohnson@example.com</td>
+                <td>5551234567</td>
+                <td>Male</td>
+                <td>10 December 1985</td>
+                <td>USA</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" " type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2 "></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#02</th>
+                <td><img src="image.jpg/Ms. Emily Wilson.png"><span class="p-2">Ms. Emily Wilson</span></td>
+                <td>emilywilson@example.com</td>
+                <td>9998765432</td>
+                <td>Female</td>
+                <td>10 August 1992</td>
+                <td>Canada</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#03</th>
+                <td><img src="image.jpg/Prof. David Brown.png"><span class="p-2">Prof. David Brown</span></td>
+                <td>davidbrown@example.com</td>
+                <td>2788945521</td>
+                <td>Male</td>
+                <td>12 May 1990</td>
+                <td>Japan</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#04</th>
+                <td><img src="image.jpg/Dr. Michael Johnson.png"><span class="p-2">Dr. Michael Johnson</span></td>
+                <td>michaeljohnson@example.com</td>
+                <td>5551234567</td>
+                <td>Male</td>
+                <td>22 September 1988</td>
+                <td>India</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#05</th>
+                <td><span class="icon">MJ</span><span class="p-2">Ms. Milly Johnson</span></td>
+                <td>millyjohnson@example.com</td>
+                <td>7638492034</td>
+                <td>Female</td>
+                <td>06 January 1994</td>
+                <td>USA</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#06</th>
+                <td><img src="image.jpg/Mr. Azeem Zai.png"><span class="p-2">Mr. Azeem Zai</span></td>
+                <td>azeemzai@example.com</td>
+                <td>5551234567</td>
+                <td>Male</td>
+                <td>28 April 1987</td>
+                <td>USA</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#07</th>
+                <td><img src="image.jpg/Dr. Maddison Johnson.png"><span class="p-2">Dr. Maddison Johnson</span></td>
+                <td>michaeljohnson@example.com</td>
+                <td>6582639103</td>
+                <td>Male</td>
+                <td>14 October 1993</td>
+                <td>UAE</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#08</th>
+                <td><span class="icon">DB</span><span class="p-2">Ms. David Brown</span></td>
+                <td>michaeljohnson@example.com</td>
+                <td>9876543210</td>
+                <td>Female</td>
+                <td>24 June 1992</td>
+                <td>India</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#09</th>
+                <td><img src="image.jpg/Mr. Michael Johnson.png"><span class="p-2">Mr. Michael Johnson</span></td>
+                <td>michaeljohnson@example.com</td>
+                <td>5551234567</td>
+                <td>Male</td>
+                <td>10 December 1985</td>
+                <td>USA</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">#10</th>
+                <td><img src="image.jpg/Ms. Emily Wilson.png"> <span class="p-2"> Ms.Emily Wilson</span></td>
+                <td>emilywilson@example.com</td>
+                <td>9998765432</td>
+                <td>Female</td>
+                <td>10 August 1992</td>
+                <td>Canada</td>
+                <td>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <span class="colo">...</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="fa-regular fa-eye p-2"></i>View Details</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-pen p-2"></i>Edit </a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trash p-2"></i>Delete </a></li>
+                    </ul>
+                  </div>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">10</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- the footer of the page -->
+
+        <div class="footer">
+          <p>© 2023 All Rights Reserved. Stackup</p>
+          <div class="footer-last">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<!-- the Add Employee part -->
+
+<div id="container">
+  <div class="form">
+<h2>Add Employee</h2>
+<button class="close-btn" onclick="closeOverlay()">X</button>
+<div class="form_body">
+  <label for="input_img"
+  class="form_label label_upload p-4 align-items-center d-flex justify-content-center flex-column gap-2">
+
+  <i class="fa-solid fa-arrow-up-from-bracket"></i>
+  <h5> Upload Image</h5>
+  <h6>PNG,JPG file are allowed</h6>
+</label>
+<input type="file" class="form-control input_upload " id="input_img">
+</div>
+
+<div class="row d-flex mt-2 ">
+  <div class="col-xl-3 col-sm-4  col-5">
+    <label for="input" class="sub-label pb-2 m-0 ">Salutaion</label>
+    <select id="inputState" class="form-select p-sm-2 p-2">
+      <option selected>select</option>
+      <option value="1">Mr</option>
+      <option value="2">Miss</option>
+      <option value="3">Mrs</option>
+    </select>
+  </div>
+  
+  <div class="col-xl-4 col-sm-8 col-7 ">
+    <label for="input_fname" class="form_label label_label pb-2 m-0 ">First Name</label>
+    <input type="text" class="form-control p-sm-2 p-2 " id="input_fname" placeholder="john"
+      aria-label="First name">
+  </div>
+
+  <div class="col-xl-5 col-sm-12 col-12">
+    <label for="input_lname" class="form_label label_label pb-2 m-xl-0 mt-sm-4 col-4">Last
+      Name</label>
+    <input type="text" class="form-control  p-sm-2 p-2" id="input_lname" placeholder="doe"
+      aria-label="Last name">
+  </div>
+</div>
+
+<div class="row mt-2">
+  <div class="col-sm-6 col-6">
+    <label for="inputEmail4" class="sub-label pb-2 m-0">Email Address</label>
+    <input type="email" class="form-control  p-sm-2 p-2 " id="inputEmail4" placeholder="mail@simmple.com">
+  </div>
+  <div class="col-sm-6 col-6">
+    <label for="inputPassword4" class="sub-label pb-2 m-0">Phone number</label>
+    <input type="password" class="form-control  p-sm-2 p-2" id="inputPassword4"
+      placeholder="enter mobile number">
+  </div>
+</div>
+
+<div class="row mt-2">
+  <div class="col-sm-6 col-12">
+    <label for="birthday" class="sub-label pb-2 m-0">Date Of Birth</label>
+    <input type="date" class="form-control  p-sm-2 p-2" id="birthday" placeholder="select date of birth">
+  </div>
+
+  <div class="col-sm-6 col-12 display_flex  ">
+    <legend class="col-form-label label_label pt-0">Gender</legend>
+    <div class="form-check form-check-inline mt-lg-3 ">
+      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1"
+        value="option1">
+      <label class="form-check-label pt-1 me-4 ps-sm-1 " for="inlineRadio1">Male</label>
+    </div>
+    <div class="form-check form-check-inline  ">
+      <input class="form-check-input  " type="radio" name="inlineRadioOptions" id="inlineRadio2"
+        value="option2">
+      <label class="form-check-label pt-1 ps-1" for="inlineRadio2">Female</label>
+    </div>
+  </div>
+</div>
+
+<div class="col-12 mt-2">
+  <label for="inputAddress" class="sub-label pb-2 m-0">Address</label>
+  <input type="text" class="form-control p-sm-2 p-2" id="inputAddress" placeholder="enter address">
+</div>
+
+<div class="row mt-2">
+  <div class="col-sm-6 col-6">
+    <label for="inputCity" class="sub-label pb-2 m-0">Country</label>
+    <select id="inputCity" class="form-select p-sm-2 p-2">
+      <option selected>select country</option>
+      <option>India</option>
+    </select>
+  </div>
+  <div class="col-sm-6 col-6">
+    <label for="inputState" class="sub-label pb-2 m-0">State</label>
+    <select id="inputState" class="form-select p-sm-2 p-2">
+      <option selected>select state</option>
+      <option>kerala</option>
+    </select>
+  </div>
+</div>
+
+<div class="row mt-2">
+  <div class="col-sm-6 col-6">
+    <label for="inputCity" class="sub-label pb-2 m-0">City</label>
+    <input type="text" class="form-control p-sm-2 p-2" id="inputCity" placeholder="enter city">
+  </div>
+
+  <div class="col-sm-6 col-6">
+    <label for="inputZip" class="sub-label pb-2 m-0">Pin/Zip </label>
+    <input type="text" class="form-control p-sm-2 p-2" id="inputZip" placeholder="enter zip/pin">
+  </div>
+</div>
+
+<div class="pt-5 d-flex gap-2 justify-content-end">
+  <button class="btn btn-outline ">Cancel</button>
+  <button class="btn btn-secondary">Add Employee</button>
+</div>
+</div>
+</div>
+<script src="script.js" defer></script>
 </body>
 
 </html>
