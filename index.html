@@ -108,8 +108,8 @@
                 <td>USA</td>
                 <td>
                   <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle bg-white" " type="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle bg-white" " type=" button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
                       <span class="colo">...</span>
                     </button>
                     <ul class="dropdown-menu">
@@ -368,122 +368,230 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-<!-- the Add Employee part -->
+  <!-- the Add Employee part -->
 
-<div id="container">
-  <div class="form">
-<h2>Add Employee</h2>
-<button id="close-btn">X</button>
-<div class="form_body">
-  <label for="input_img"
-  class="form_label label_upload p-4 align-items-center d-flex justify-content-center flex-column gap-2">
+  <div id="container">
+    <div class="form">
+      <h2>Add Employee</h2>
+      <button id="close-btn">X</button>
+      <div class="form_body">
+        <label for="input_img"
+          class="form_label label_upload p-4 align-items-center d-flex justify-content-center flex-column gap-2">
 
-  <i class="fa-solid fa-arrow-up-from-bracket"></i>
-  <h5> Upload Image</h5>
-  <h6>PNG,JPG file are allowed</h6>
-</label>
-<input type="file" class="form-control input_upload " id="input_img">
-</div>
+          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+          <h5> Upload Image</h5>
+          <h6>PNG,JPG file are allowed</h6>
+        </label>
+        <input type="file" class="form-control input_upload " id="input_img">
+      </div>
 
-<div class="row d-flex mt-2 ">
-  <div class="col-xl-3 col-sm-4  col-5">
-    <label for="input" class="sub-label pb-2 m-0 ">Salutaion</label>
-    <select id="inputState" class="form-select p-sm-2 p-2">
-      <option selected>select</option>
-      <option value="1">Mr</option>
-      <option value="2">Miss</option>
-      <option value="3">Mrs</option>
-    </select>
-  </div>
-  
-  <div class="col-xl-4 col-sm-8 col-7 ">
-    <label for="input_fname" class="form_label label_label pb-2 m-0 ">First Name</label>
-    <input type="text" class="form-control p-sm-2 p-2 " id="input_fname" placeholder="john"
-      aria-label="First name">
-  </div>
+      <div class="row d-flex mt-2 ">
+        <div class="col-xl-3 col-sm-4  col-5">
+          <label for="input" class="sub-label pb-2 m-0 ">Salutaion</label>
+          <select id="inputState" class="form-select p-sm-2 p-2">
+            <option selected>select</option>
+            <option value="1">Mr</option>
+            <option value="2">Miss</option>
+            <option value="3">Mrs</option>
+          </select>
+        </div>
 
-  <div class="col-xl-5 col-sm-12 col-12">
-    <label for="input_lname" class="form_label label_label pb-2 m-xl-0 mt-sm-4 col-4">Last
-      Name</label>
-    <input type="text" class="form-control  p-sm-2 p-2" id="input_lname" placeholder="doe"
-      aria-label="Last name">
-  </div>
-</div>
+        <div class="col-xl-4 col-sm-8 col-7 ">
+          <label for="input_fname" class="form_label label_label pb-2 m-0 ">First Name</label>
+          <input type="text" class="form-control p-sm-2 p-2 " id="input_fname" placeholder="john"
+            aria-label="First name">
+        </div>
 
-<div class="row mt-2">
-  <div class="col-sm-6 col-6">
-    <label for="inputEmail4" class="sub-label pb-2 m-0">Email Address</label>
-    <input type="email" class="form-control  p-sm-2 p-2 " id="inputEmail4" placeholder="mail@simmple.com">
-  </div>
-  <div class="col-sm-6 col-6">
-    <label for="inputPassword4" class="sub-label pb-2 m-0">Phone number</label>
-    <input type="password" class="form-control  p-sm-2 p-2" id="inputPassword4"
-      placeholder="enter mobile number">
-  </div>
-</div>
+        <div class="col-xl-5 col-sm-12 col-12">
+          <label for="input_lname" class="form_label label_label pb-2 m-xl-0 mt-sm-4 col-4">Last
+            Name</label>
+          <input type="text" class="form-control  p-sm-2 p-2" id="input_lname" placeholder="doe" aria-label="Last name">
+        </div>
+      </div>
 
-<div class="row mt-2">
-  <div class="col-sm-6 col-12">
-    <label for="birthday" class="sub-label pb-2 m-0">Date Of Birth</label>
-    <input type="date" class="form-control  p-sm-2 p-2" id="birthday" placeholder="select date of birth">
-  </div>
+      <div class="row mt-2">
+        <div class="col-sm-6 col-6">
+          <label for="inputEmail4" class="sub-label pb-2 m-0">Email Address</label>
+          <input type="email" class="form-control  p-sm-2 p-2 " id="inputEmail4" placeholder="mail@simmple.com">
+        </div>
+        <div class="col-sm-6 col-6">
+          <label for="inputPassword4" class="sub-label pb-2 m-0">Phone number</label>
+          <input type="password" class="form-control  p-sm-2 p-2" id="inputPassword4" placeholder="enter mobile number">
+        </div>
+      </div>
 
-  <div class="col-sm-6 col-12 display_flex  ">
-    <legend class="col-form-label label_label pt-0">Gender</legend>
-    <div class="form-check form-check-inline mt-lg-3 ">
-      <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1"
-        value="option1">
-      <label class="form-check-label pt-1 me-4 ps-sm-1 " for="inlineRadio1">Male</label>
+      <div class="row mt-2">
+        <div class="col-sm-6 col-12">
+          <label for="birthday" class="sub-label pb-2 m-0">Date Of Birth</label>
+          <input type="date" class="form-control  p-sm-2 p-2" id="birthday" placeholder="select date of birth">
+        </div>
+
+        <div class="col-sm-6 col-12 display_flex  ">
+          <legend class="col-form-label label_label pt-0">Gender</legend>
+          <div class="form-check form-check-inline mt-lg-3 ">
+            <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label pt-1 me-4 ps-sm-1 " for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline  ">
+            <input class="form-check-input  " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label pt-1 ps-1" for="inlineRadio2">Female</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mt-2">
+        <label for="inputAddress" class="sub-label pb-2 m-0">Address</label>
+        <input type="text" class="form-control p-sm-2 p-2" id="inputAddress" placeholder="enter address">
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-sm-6 col-6">
+          <label for="inputCity" class="sub-label pb-2 m-0">Country</label>
+          <select id="inputCity" class="form-select p-sm-2 p-2">
+            <option selected>select country</option>
+            <option>India</option>
+          </select>
+        </div>
+        <div class="col-sm-6 col-6">
+          <label for="inputState" class="sub-label pb-2 m-0">State</label>
+          <select id="inputState" class="form-select p-sm-2 p-2">
+            <option selected>select state</option>
+            <option>kerala</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-sm-6 col-6">
+          <label for="inputCity" class="sub-label pb-2 m-0">City</label>
+          <input type="text" class="form-control p-sm-2 p-2" id="inputCity" placeholder="enter city">
+        </div>
+
+        <div class="col-sm-6 col-6">
+          <label for="inputZip" class="sub-label pb-2 m-0">Pin/Zip </label>
+          <input type="text" class="form-control p-sm-2 p-2" id="inputZip" placeholder="enter zip/pin">
+        </div>
+      </div>
+
+      <div class="pt-5 d-flex gap-2 justify-content-end">
+        <button class="btn btn-outline ">Cancel</button>
+        <button class="btn btn-secondary">Add Employee</button>
+      </div>
     </div>
-    <div class="form-check form-check-inline  ">
-      <input class="form-check-input  " type="radio" name="inlineRadioOptions" id="inlineRadio2"
-        value="option2">
-      <label class="form-check-label pt-1 ps-1" for="inlineRadio2">Female</label>
+  </div>
+
+  <!-- edit -->
+
+  <div id="container">
+    <div class="form">
+      <h2>Add Employee</h2>
+      <button id="close-btn">X</button>
+      <div class="form_body">
+        <label for="input_img"
+          class="form_label label_upload p-4 align-items-center d-flex justify-content-center flex-column gap-2">
+
+          <i class="fa-solid fa-arrow-up-from-bracket"></i>
+          <h5> Upload Image</h5>
+          <h6>PNG,JPG file are allowed</h6>
+        </label>
+        <input type="file" class="form-control input_upload " id="input_img">
+      </div>
+
+      <div class="row d-flex mt-2 ">
+        <div class="col-xl-3 col-sm-4  col-5">
+          <label for="input" class="sub-label pb-2 m-0 ">Salutaion</label>
+          <select id="inputState" class="form-select p-sm-2 p-2">
+            <option selected>select</option>
+            <option value="1">Mr</option>
+            <option value="2">Miss</option>
+            <option value="3">Mrs</option>
+          </select>
+        </div>
+
+        <div class="col-xl-4 col-sm-8 col-7 ">
+          <label for="input_fname" class="form_label label_label pb-2 m-0 ">First Name</label>
+          <input type="text" class="form-control p-sm-2 p-2 " id="input_fname" placeholder="john"
+            aria-label="First name">
+        </div>
+
+        <div class="col-xl-5 col-sm-12 col-12">
+          <label for="input_lname" class="form_label label_label pb-2 m-xl-0 mt-sm-4 col-4">Last
+            Name</label>
+          <input type="text" class="form-control  p-sm-2 p-2" id="input_lname" placeholder="doe" aria-label="Last name">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-sm-6 col-6">
+          <label for="inputEmail4" class="sub-label pb-2 m-0">Email Address</label>
+          <input type="email" class="form-control  p-sm-2 p-2 " id="inputEmail4" placeholder="mail@simmple.com">
+        </div>
+        <div class="col-sm-6 col-6">
+          <label for="inputPassword4" class="sub-label pb-2 m-0">Phone number</label>
+          <input type="password" class="form-control  p-sm-2 p-2" id="inputPassword4" placeholder="enter mobile number">
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-sm-6 col-12">
+          <label for="birthday" class="sub-label pb-2 m-0">Date Of Birth</label>
+          <input type="date" class="form-control  p-sm-2 p-2" id="birthday" placeholder="select date of birth">
+        </div>
+
+        <div class="col-sm-6 col-12 display_flex  ">
+          <legend class="col-form-label label_label pt-0">Gender</legend>
+          <div class="form-check form-check-inline mt-lg-3 ">
+            <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label pt-1 me-4 ps-sm-1 " for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline  ">
+            <input class="form-check-input  " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label pt-1 ps-1" for="inlineRadio2">Female</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mt-2">
+        <label for="inputAddress" class="sub-label pb-2 m-0">Address</label>
+        <input type="text" class="form-control p-sm-2 p-2" id="inputAddress" placeholder="enter address">
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-sm-6 col-6">
+          <label for="inputCity" class="sub-label pb-2 m-0">Country</label>
+          <select id="inputCity" class="form-select p-sm-2 p-2">
+            <option selected>select country</option>
+            <option>India</option>
+          </select>
+        </div>
+        <div class="col-sm-6 col-6">
+          <label for="inputState" class="sub-label pb-2 m-0">State</label>
+          <select id="inputState" class="form-select p-sm-2 p-2">
+            <option selected>select state</option>
+            <option>kerala</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-sm-6 col-6">
+          <label for="inputCity" class="sub-label pb-2 m-0">City</label>
+          <input type="text" class="form-control p-sm-2 p-2" id="inputCity" placeholder="enter city">
+        </div>
+
+        <div class="col-sm-6 col-6">
+          <label for="inputZip" class="sub-label pb-2 m-0">Pin/Zip </label>
+          <input type="text" class="form-control p-sm-2 p-2" id="inputZip" placeholder="enter zip/pin">
+        </div>
+      </div>
+
+      <div class="pt-5 d-flex gap-2 justify-content-end">
+        <button class="btn btn-outline ">Cancel</button>
+        <button class="btn btn-secondary">Add Employee</button>
+      </div>
     </div>
   </div>
-</div>
-
-<div class="col-12 mt-2">
-  <label for="inputAddress" class="sub-label pb-2 m-0">Address</label>
-  <input type="text" class="form-control p-sm-2 p-2" id="inputAddress" placeholder="enter address">
-</div>
-
-<div class="row mt-2">
-  <div class="col-sm-6 col-6">
-    <label for="inputCity" class="sub-label pb-2 m-0">Country</label>
-    <select id="inputCity" class="form-select p-sm-2 p-2">
-      <option selected>select country</option>
-      <option>India</option>
-    </select>
-  </div>
-  <div class="col-sm-6 col-6">
-    <label for="inputState" class="sub-label pb-2 m-0">State</label>
-    <select id="inputState" class="form-select p-sm-2 p-2">
-      <option selected>select state</option>
-      <option>kerala</option>
-    </select>
-  </div>
-</div>
-
-<div class="row mt-2">
-  <div class="col-sm-6 col-6">
-    <label for="inputCity" class="sub-label pb-2 m-0">City</label>
-    <input type="text" class="form-control p-sm-2 p-2" id="inputCity" placeholder="enter city">
-  </div>
-
-  <div class="col-sm-6 col-6">
-    <label for="inputZip" class="sub-label pb-2 m-0">Pin/Zip </label>
-    <input type="text" class="form-control p-sm-2 p-2" id="inputZip" placeholder="enter zip/pin">
-  </div>
-</div>
-
-<div class="pt-5 d-flex gap-2 justify-content-end">
-  <button class="btn btn-outline ">Cancel</button>
-  <button class="btn btn-secondary">Add Employee</button>
-</div>
-</div>
-</div>
-<script src="script.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>

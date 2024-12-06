@@ -321,13 +321,13 @@ box-shadow: 0em 0em 0em 40em rgba(11, 11, 11, 0.7);
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #ff5c5c;
-  border: none;
-  color: white;
+ background-color: rgb(214, 235, 244);
+ border: 0px;
+ height: 30px;
+ width: 30px;
+ border-radius: 5px;
+  color:rgb(15, 139, 235);
   font-size: 16px;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
   cursor: pointer;
 }
 
